@@ -1,0 +1,10 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    username: root
+    password: 543210
+    url: jdbc:mysql://20.205.136.87:3306/mysql?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  config: classpath:log4j2/log4j2.xml

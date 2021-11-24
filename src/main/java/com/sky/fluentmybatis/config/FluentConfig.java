@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 @ComponentScan(basePackages = "com.sky.fluentmybatis")
 @MapperScan("com.sky.fluentmybatis.mapper")
 @Configuration
-public class HelloWorldConfig {
+public class FluentConfig {
     /**
      * 设置dataSource属性
      *
